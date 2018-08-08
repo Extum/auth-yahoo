@@ -12,6 +12,15 @@ Let your users login to your forum using their Yahoo account.
 
 ## Installation
 
-```
+Use [Bazaar](https://discuss.flarum.org/d/5151-flagrow-bazaar-the-extension-marketplace) or install manually:
+
+```bash
 composer require extum/flarum-ext-auth-yahoo
+```
+
+## Updating
+
+```bash
+composer require extum/flarum-ext-auth-yahoo
+php flarum cache:clear
 ```
